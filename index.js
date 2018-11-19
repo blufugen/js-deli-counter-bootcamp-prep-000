@@ -12,5 +12,10 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
+  if ()
   
+  var status = ""
+  for (int i = 0; i < katzDeliLine.length; ++i) {
+    
+  }
 }
