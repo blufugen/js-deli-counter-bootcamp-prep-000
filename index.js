@@ -21,5 +21,5 @@ function currentLine(katzDeliLine) {
     status = status + `${i+1}. ${katzDeliLine[i]}, `;
   }
 
-  return status.slice(0, status.length - 1);
+  return status.slice(0, status.length - 2);
 }
