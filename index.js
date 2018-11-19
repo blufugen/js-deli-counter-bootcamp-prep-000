@@ -4,5 +4,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  var personBeingServed = katzDeliLine.slice()
+  if (katzDeliLine.length == 0) {
+    return 
+  }
+  katzDeliLine.shift();
 }
