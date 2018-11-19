@@ -21,6 +21,6 @@ function currentLine(katzDeliLine) {
     status = status + `${i+1}. ${katzDeliLine[i]}, `;
   }
 
-  status.pop();
+  
   return status;
 }
